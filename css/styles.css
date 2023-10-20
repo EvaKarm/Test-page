@@ -1,0 +1,151 @@
+body {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  display: block;
+}
+
+h1 {
+  font: 42px "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Section 0 */
+.section0 {
+  background-image: url("images/section0/section0.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 890px;
+  text-align: center;
+  width: 1920px;
+}
+
+.section0 div {
+  padding-top: 737px;
+}
+
+.section0 p {
+  font-size: 20px;
+}
+
+/* Section 1 */
+.section1 {
+  background-image: url("images/section1/section1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1062px;
+  width: 1920px;
+}
+
+.section1 h1 {
+  color: #416df4;
+  font-size: 30px;
+  padding-top: 60px;
+  text-align: left;
+}
+
+.section1 div {
+  float: right;
+  width: 50%;
+}
+
+.tabs {
+  border-collapse: separate;
+  border-spacing: 10px;
+  color: #671d00;
+  font-size: 12px;
+  margin-top: 33px;
+  margin-left: 330px;
+}
+
+.tabs td {
+  height: 19px;
+  border: 1px solid hsla(17, 100%, 20%, 0.48);
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.rootTable {
+  border-collapse: separate;
+  font-size: 16px;
+}
+
+.rootTableRow {
+  height: 74px;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.innerTable {
+  border-collapse: collapse;
+}
+
+.rootTable > tbody > tr > td {
+  border: solid hsla(17, 100%, 20%, 0.48);
+  border-width: thin 1px;
+}
+
+.innerTable > tbody > tr > td > img {
+  margin-left: 3px;
+}
+
+.innerTable > tbody > tr > td:first-child {
+  text-align: left;
+}
+
+.innerTable th {
+  padding-left: 15px;
+  text-align: left;
+  width: 229px;
+}
+
+.innerTable > tbody > tr > td:nth-child(3) {
+  padding-left: 20px;
+  text-align: center;
+  width: 155px;
+}
+
+.innerTable > tbody > tr > td:last-child {
+  text-align: center;
+  width: 135px;
+}
+
+.innerTable img {
+  vertical-align: middle;
+}
+
+.priceButton {
+  float: left;
+}
+.price {
+  font-size: 50px;
+  margin: 170px 0 10px -215px;
+  text-align: left;
+}
+
+.material-symbols-outlined {
+  font-size: 50px;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  vertical-align: -15%;
+}
+
+button {
+  background-color: #fcff00;
+  border: none;
+  border-radius: 7px;
+  color: #000000;
+  display: inline-block;
+  font-size: 16px;
+  height: 40px;
+  margin: 0 0 0 -215px;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+}
+
+button:hover {
+  box-shadow: 0 5px 30px 0 white;
+}
